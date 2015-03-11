@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989079961AAFF5BC0070BBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989079951AAFF5BC0070BBF0 /* AppDelegate.swift */; };
+		989079991AAFF5BC0070BBF0 /* omikujiSW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 989079971AAFF5BC0070BBF0 /* omikujiSW.xcdatamodeld */; };
+		9890799B1AAFF5BC0070BBF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9890799A1AAFF5BC0070BBF0 /* ViewController.swift */; };
+		9890799E1AAFF5BC0070BBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9890799C1AAFF5BC0070BBF0 /* Main.storyboard */; };
+		989079A01AAFF5BC0070BBF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9890799F1AAFF5BC0070BBF0 /* Images.xcassets */; };
+		989079A31AAFF5BC0070BBF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989079A11AAFF5BC0070BBF0 /* LaunchScreen.xib */; };
+		989079AF1AAFF5BC0070BBF0 /* omikujiSWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989079AE1AAFF5BC0070BBF0 /* omikujiSWTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		989079A91AAFF5BC0070BBF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 989079881AAFF5BC0070BBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9890798F1AAFF5BC0070BBF0;
+			remoteInfo = omikujiSW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		989079901AAFF5BC0070BBF0 /* omikujiSW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omikujiSW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		989079941AAFF5BC0070BBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989079951AAFF5BC0070BBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		989079981AAFF5BC0070BBF0 /* omikujiSW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = omikujiSW.xcdatamodel; sourceTree = "<group>"; };
+		9890799A1AAFF5BC0070BBF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9890799D1AAFF5BC0070BBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9890799F1AAFF5BC0070BBF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		989079A21AAFF5BC0070BBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		989079A81AAFF5BC0070BBF0 /* omikujiSWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omikujiSWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		989079AD1AAFF5BC0070BBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989079AE1AAFF5BC0070BBF0 /* omikujiSWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omikujiSWTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9890798D1AAFF5BC0070BBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989079A51AAFF5BC0070BBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		989079871AAFF5BC0070BBF0 = {
+			isa = PBXGroup;
+			children = (
+				989079921AAFF5BC0070BBF0 /* omikujiSW */,
+				989079AB1AAFF5BC0070BBF0 /* omikujiSWTests */,
+				989079911AAFF5BC0070BBF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		989079911AAFF5BC0070BBF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989079901AAFF5BC0070BBF0 /* omikujiSW.app */,
+				989079A81AAFF5BC0070BBF0 /* omikujiSWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989079921AAFF5BC0070BBF0 /* omikujiSW */ = {
+			isa = PBXGroup;
+			children = (
+				989079951AAFF5BC0070BBF0 /* AppDelegate.swift */,
+				9890799A1AAFF5BC0070BBF0 /* ViewController.swift */,
+				9890799C1AAFF5BC0070BBF0 /* Main.storyboard */,
+				9890799F1AAFF5BC0070BBF0 /* Images.xcassets */,
+				989079A11AAFF5BC0070BBF0 /* LaunchScreen.xib */,
+				989079971AAFF5BC0070BBF0 /* omikujiSW.xcdatamodeld */,
+				989079931AAFF5BC0070BBF0 /* Supporting Files */,
+			);
+			path = omikujiSW;
+			sourceTree = "<group>";
+		};
+		989079931AAFF5BC0070BBF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				989079941AAFF5BC0070BBF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		989079AB1AAFF5BC0070BBF0 /* omikujiSWTests */ = {
+			isa = PBXGroup;
+			children = (
+				989079AE1AAFF5BC0070BBF0 /* omikujiSWTests.swift */,
+				989079AC1AAFF5BC0070BBF0 /* Supporting Files */,
+			);
+			path = omikujiSWTests;
+			sourceTree = "<group>";
+		};
+		989079AC1AAFF5BC0070BBF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				989079AD1AAFF5BC0070BBF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9890798F1AAFF5BC0070BBF0 /* omikujiSW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989079B21AAFF5BC0070BBF0 /* Build configuration list for PBXNativeTarget "omikujiSW" */;
+			buildPhases = (
+				9890798C1AAFF5BC0070BBF0 /* Sources */,
+				9890798D1AAFF5BC0070BBF0 /* Frameworks */,
+				9890798E1AAFF5BC0070BBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = omikujiSW;
+			productName = omikujiSW;
+			productReference = 989079901AAFF5BC0070BBF0 /* omikujiSW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		989079A71AAFF5BC0070BBF0 /* omikujiSWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989079B51AAFF5BC0070BBF0 /* Build configuration list for PBXNativeTarget "omikujiSWTests" */;
+			buildPhases = (
+				989079A41AAFF5BC0070BBF0 /* Sources */,
+				989079A51AAFF5BC0070BBF0 /* Frameworks */,
+				989079A61AAFF5BC0070BBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				989079AA1AAFF5BC0070BBF0 /* PBXTargetDependency */,
+			);
+			name = omikujiSWTests;
+			productName = omikujiSWTests;
+			productReference = 989079A81AAFF5BC0070BBF0 /* omikujiSWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		989079881AAFF5BC0070BBF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yuki Futagami";
+				TargetAttributes = {
+					9890798F1AAFF5BC0070BBF0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					989079A71AAFF5BC0070BBF0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9890798F1AAFF5BC0070BBF0;
+					};
+				};
+			};
+			buildConfigurationList = 9890798B1AAFF5BC0070BBF0 /* Build configuration list for PBXProject "omikujiSW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 989079871AAFF5BC0070BBF0;
+			productRefGroup = 989079911AAFF5BC0070BBF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9890798F1AAFF5BC0070BBF0 /* omikujiSW */,
+				989079A71AAFF5BC0070BBF0 /* omikujiSWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9890798E1AAFF5BC0070BBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9890799E1AAFF5BC0070BBF0 /* Main.storyboard in Resources */,
+				989079A31AAFF5BC0070BBF0 /* LaunchScreen.xib in Resources */,
+				989079A01AAFF5BC0070BBF0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989079A61AAFF5BC0070BBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9890798C1AAFF5BC0070BBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9890799B1AAFF5BC0070BBF0 /* ViewController.swift in Sources */,
+				989079991AAFF5BC0070BBF0 /* omikujiSW.xcdatamodeld in Sources */,
+				989079961AAFF5BC0070BBF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989079A41AAFF5BC0070BBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989079AF1AAFF5BC0070BBF0 /* omikujiSWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		989079AA1AAFF5BC0070BBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9890798F1AAFF5BC0070BBF0 /* omikujiSW */;
+			targetProxy = 989079A91AAFF5BC0070BBF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9890799C1AAFF5BC0070BBF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9890799D1AAFF5BC0070BBF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		989079A11AAFF5BC0070BBF0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989079A21AAFF5BC0070BBF0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		989079B01AAFF5BC0070BBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		989079B11AAFF5BC0070BBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		989079B31AAFF5BC0070BBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = omikujiSW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		989079B41AAFF5BC0070BBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = omikujiSW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		989079B61AAFF5BC0070BBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = omikujiSWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omikujiSW.app/omikujiSW";
+			};
+			name = Debug;
+		};
+		989079B71AAFF5BC0070BBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = omikujiSWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omikujiSW.app/omikujiSW";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9890798B1AAFF5BC0070BBF0 /* Build configuration list for PBXProject "omikujiSW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989079B01AAFF5BC0070BBF0 /* Debug */,
+				989079B11AAFF5BC0070BBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989079B21AAFF5BC0070BBF0 /* Build configuration list for PBXNativeTarget "omikujiSW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989079B31AAFF5BC0070BBF0 /* Debug */,
+				989079B41AAFF5BC0070BBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		989079B51AAFF5BC0070BBF0 /* Build configuration list for PBXNativeTarget "omikujiSWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989079B61AAFF5BC0070BBF0 /* Debug */,
+				989079B71AAFF5BC0070BBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		989079971AAFF5BC0070BBF0 /* omikujiSW.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				989079981AAFF5BC0070BBF0 /* omikujiSW.xcdatamodel */,
+			);
+			currentVersion = 989079981AAFF5BC0070BBF0 /* omikujiSW.xcdatamodel */;
+			path = omikujiSW.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 989079881AAFF5BC0070BBF0 /* Project object */;
+}
